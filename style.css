@@ -1,0 +1,105 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://f.top4top.io/p_3459zkzvm1.jpeg') center/cover no-repeat fixed;
+  color: #ffffff;
+  direction: rtl;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #59befa;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px 20px;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 700px;
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buttons .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  background: #59befa;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.buttons .btn.secondary {
+  background: #2b2b2b;
+  border: 1px solid #59befa;
+}
+
+.buttons .btn:hover {
+  background: #3daae4;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  color: #999;
+}
+
+.commands-list {
+  text-align: right;
+  list-style: none;
+  padding: 0;
+}
+
+.commands-list li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.buttons .btn.support {
+  background: #4e5d6c;
+  color: #fff;
+}
+.buttons .btn.support:hover {
+  background: #3a4753;
+}
